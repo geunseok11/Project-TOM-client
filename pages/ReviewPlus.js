@@ -95,8 +95,6 @@ const ReviewPlus = (props) => {
 
 
   const onPressReview = useCallback(() => {
-    // console.log('In Review, text: ', text);
-
     dispatch(addToReview(text));  //TODO : 1. text  or  2. (name, content)
 
     setTimeout(() => {
@@ -148,3 +146,5 @@ const ReviewPlus = (props) => {
 };
 
 export default ReviewPlus;
+
+

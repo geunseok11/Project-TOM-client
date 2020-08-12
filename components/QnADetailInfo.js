@@ -44,8 +44,6 @@ const QnADetailInfo = (props) => {
     }, 1000)
   }, [timesQ]);
 
-
-
   return (
     <QnADetailInfoOfBottom>
       <QnAheader>
