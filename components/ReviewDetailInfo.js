@@ -42,7 +42,6 @@ const ReviewDetailInfo = (props) => {
   },[])
 
   useEffect(() => {
-    // console.log('In ReviewDetailInfo, timesR 2 : ', timesQ);
     setTimeout(() => {
       dispatch(loadToReview(id))
     }, 1000)
@@ -71,3 +70,22 @@ const ReviewDetailInfo = (props) => {
 }
 
 export default ReviewDetailInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
